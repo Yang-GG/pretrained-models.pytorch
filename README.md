@@ -1,4 +1,8 @@
-```pip install git+https://github.com/Yang-GG/pretrained-models.pytorch.git```
+```
+git clone https://github.com/Yang-GG/pretrained-models.pytorch.git
+cd pretrained-models.pytorch
+python setup.py install
+```
 
 
 # Pretrained models for Pytorch (Work in progress)
