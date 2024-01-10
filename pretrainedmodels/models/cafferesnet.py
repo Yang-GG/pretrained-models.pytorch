@@ -8,7 +8,7 @@ import torch.utils.model_zoo as model_zoo
 pretrained_settings = {
     'cafferesnet101': {
         'imagenet': {
-            'url': 'http://data.lip6.fr/cadene/pretrainedmodels/cafferesnet101-9d633cc0.pth',
+            'url': 'https://oss.y.hn/89/cafferesnet101-9d633cc0.pth',
             'input_space': 'BGR',
             'input_size': [3, 224, 224],
             'input_range': [0, 255],

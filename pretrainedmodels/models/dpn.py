@@ -20,7 +20,7 @@ __all__ = ['DPN', 'dpn68', 'dpn68b', 'dpn92', 'dpn98', 'dpn131', 'dpn107']
 pretrained_settings = {
     'dpn68': {
         'imagenet': {
-            'url': 'http://data.lip6.fr/cadene/pretrainedmodels/dpn68-4af7d88d2.pth',
+            'url': 'https://oss.y.hn/89/dpn68-4af7d88d2.pth',
             'input_space': 'RGB',
             'input_size': [3, 224, 224],
             'input_range': [0, 1],
@@ -31,7 +31,7 @@ pretrained_settings = {
     },
     'dpn68b': {
         'imagenet+5k': {
-            'url': 'http://data.lip6.fr/cadene/pretrainedmodels/dpn68b_extra-363ab9c19.pth',
+            'url': 'https://oss.y.hn/89/dpn68b_extra-363ab9c19.pth',
             'input_space': 'RGB',
             'input_size': [3, 224, 224],
             'input_range': [0, 1],
@@ -42,7 +42,7 @@ pretrained_settings = {
     },
     'dpn92': {
         # 'imagenet': {
-        #     'url': 'http://data.lip6.fr/cadene/pretrainedmodels/dpn68-66bebafa7.pth',
+        #     'url': 'https://oss.y.hn/89/dpn68-66bebafa7.pth',
         #     'input_space': 'RGB',
         #     'input_size': [3, 224, 224],
         #     'input_range': [0, 1],
@@ -51,7 +51,7 @@ pretrained_settings = {
         #     'num_classes': 1000
         # },
         'imagenet+5k': {
-            'url': 'http://data.lip6.fr/cadene/pretrainedmodels/dpn92_extra-fda993c95.pth',
+            'url': 'https://oss.y.hn/89/dpn92_extra-fda993c95.pth',
             'input_space': 'RGB',
             'input_size': [3, 224, 224],
             'input_range': [0, 1],
@@ -62,7 +62,7 @@ pretrained_settings = {
     },
     'dpn98': {
         'imagenet': {
-            'url': 'http://data.lip6.fr/cadene/pretrainedmodels/dpn98-722954780.pth',
+            'url': 'https://oss.y.hn/89/dpn98-722954780.pth',
             'input_space': 'RGB',
             'input_size': [3, 224, 224],
             'input_range': [0, 1],
@@ -73,7 +73,7 @@ pretrained_settings = {
     },
     'dpn131': {
         'imagenet': {
-            'url': 'http://data.lip6.fr/cadene/pretrainedmodels/dpn131-7af84be88.pth',
+            'url': 'https://oss.y.hn/89/dpn131-7af84be88.pth',
             'input_space': 'RGB',
             'input_size': [3, 224, 224],
             'input_range': [0, 1],
@@ -84,7 +84,7 @@ pretrained_settings = {
     },
     'dpn107': {
         'imagenet+5k': {
-            'url': 'http://data.lip6.fr/cadene/pretrainedmodels/dpn107_extra-b7f9f4cc9.pth',
+            'url': 'https://oss.y.hn/89/dpn107_extra-b7f9f4cc9.pth',
             'input_space': 'RGB',
             'input_size': [3, 224, 224],
             'input_range': [0, 1],

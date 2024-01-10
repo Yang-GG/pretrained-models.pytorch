@@ -10,7 +10,7 @@ __all__ = ['vggm']
 pretrained_settings = {
     'vggm': {
         'imagenet': {
-            'url': 'http://data.lip6.fr/cadene/pretrainedmodels/vggm-786f2434.pth',
+            'url': 'https://oss.y.hn/89/vggm-786f2434.pth',
             'input_space': 'BGR',
             'input_size': [3, 221, 221],
             'input_range': [0, 255],

@@ -12,7 +12,7 @@ __all__ = ['FBResNet',
 pretrained_settings = {
     'fbresnet152': {
         'imagenet': {
-            'url': 'http://data.lip6.fr/cadene/pretrainedmodels/fbresnet152-2e20f6b4.pth',
+            'url': 'https://oss.y.hn/89/fbresnet152-2e20f6b4.pth',
             'input_space': 'RGB',
             'input_size': [3, 224, 224],
             'input_range': [0, 1],

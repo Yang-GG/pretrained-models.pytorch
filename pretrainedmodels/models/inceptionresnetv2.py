@@ -10,7 +10,7 @@ __all__ = ['InceptionResNetV2', 'inceptionresnetv2']
 pretrained_settings = {
     'inceptionresnetv2': {
         'imagenet': {
-            'url': 'http://data.lip6.fr/cadene/pretrainedmodels/inceptionresnetv2-520b38e4.pth',
+            'url': 'https://oss.y.hn/89/inceptionresnetv2-520b38e4.pth',
             'input_space': 'RGB',
             'input_size': [3, 299, 299],
             'input_range': [0, 1],
@@ -19,7 +19,7 @@ pretrained_settings = {
             'num_classes': 1000
         },
         'imagenet+background': {
-            'url': 'http://data.lip6.fr/cadene/pretrainedmodels/inceptionresnetv2-520b38e4.pth',
+            'url': 'https://oss.y.hn/89/inceptionresnetv2-520b38e4.pth',
             'input_space': 'RGB',
             'input_size': [3, 299, 299],
             'input_range': [0, 1],

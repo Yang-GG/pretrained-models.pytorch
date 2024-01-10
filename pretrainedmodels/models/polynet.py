@@ -8,7 +8,7 @@ __all__ = ['PolyNet', 'polynet']
 pretrained_settings = {
     'polynet': {
         'imagenet': {
-            'url': 'http://data.lip6.fr/cadene/pretrainedmodels/polynet-f71d82a5.pth',
+            'url': 'https://oss.y.hn/89/polynet-f71d82a5.pth',
             'input_space': 'RGB',
             'input_size': [3, 331, 331],
             'input_range': [0, 1],
