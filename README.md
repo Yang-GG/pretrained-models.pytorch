@@ -1,3 +1,6 @@
+```pip install git+https://github.com/Yang-GG/pretrained-models.pytorch.git```
+
+
 # Pretrained models for Pytorch (Work in progress)
 
 The goal of this repo is:
